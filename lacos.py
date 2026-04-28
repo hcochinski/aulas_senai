@@ -12,15 +12,15 @@
 
 #Criando um dicionario
 
-produto = {"nome": "teclado" , "preço": 150, "em estoque": True}
+# produto = {"nome": "teclado" , "preço": 150, "em estoque": True}
 
-#Acessando um valor
-print(produto["nome"])
+# #Acessando um valor
+# print(produto["nome"])
 
-#Modificando um valor
-produto["preco"] = 135.00
+# #Modificando um valor
+# produto["preco"] = 135.00
 
-#Adicionando um novo par
-produto["quantidade"] = 10
+# #Adicionando um novo par
+# produto["quantidade"] = 10
 
-print(produto)
+# print(produto)
