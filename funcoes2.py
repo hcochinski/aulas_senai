@@ -11,7 +11,9 @@ while True:
     chave = input("Nome do campo (ex: profissões): ")
     if chave.lower == 'sair':
         break
-    valor = input(f"Valor para {chave}: ")
+    valor = input(f"Salário {chave}: ")
     info_usuario[chave] = valor
 
-#Usamos
+#Usamos ** para desempacotar o dicionário como argumentos
+
+exibir_info(**info_usuario)
